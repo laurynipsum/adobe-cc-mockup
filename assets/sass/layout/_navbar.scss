@@ -43,8 +43,29 @@ nav{
                 padding: 10px;
                 background-color:#BBB;
             }
-        }
+        }//account info
 
 
     }//first-nav
+
+    #second-nav{
+        height: 80px;
+        width:  100vw;
+        background-color: #ccc;
+
+        ul{
+            height: 100%;
+            width:  auto;
+            background-color: #EEE;
+
+            li{
+                height:  100%;
+                width:   auto;
+                padding: 0px 20px;
+                background-color: #111;
+                color: white;
+            }
+
+        }//ul
+    }
 }//nav

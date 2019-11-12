@@ -142,4 +142,24 @@ nav #first-nav #acc-info div {
   padding: 10px;
   background-color: #BBB;
 }
+
+nav #second-nav {
+  height: 80px;
+  width: 100vw;
+  background-color: #ccc;
+}
+
+nav #second-nav ul {
+  height: 100%;
+  width: auto;
+  background-color: #EEE;
+}
+
+nav #second-nav ul li {
+  height: 100%;
+  width: auto;
+  padding: 0px 20px;
+  background-color: #111;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
