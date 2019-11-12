@@ -2,7 +2,7 @@
 
 nav{
     #first-nav{
-
+        @include basic-flex(space-between);
         height: 60px;
         width:  100vw;
         background-color: #333333;
@@ -16,6 +16,7 @@ nav{
         }//adobe-logo
 
         ul{
+            @include basic-flex();
             height: 100%;
             width:  auto;
             background-color: #555;
@@ -25,11 +26,13 @@ nav{
                 width:   auto;
                 padding: 0px 20px;
                 background-color: #777;
+                @include basic-flex();
 
             }//li
         }//ul
 
         #acc-info{
+            @include basic-flex();
             height: 100%;
             width:  auto;
             background-color: #888888;
