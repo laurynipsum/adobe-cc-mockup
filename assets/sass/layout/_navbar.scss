@@ -49,16 +49,20 @@ nav{
     }//first-nav
 
     #second-nav{
+        @include basic-flex();
+
         height: 80px;
         width:  100vw;
         background-color: #ccc;
 
         ul{
+            @include basic-flex();
             height: 100%;
             width:  auto;
             background-color: #EEE;
 
             li{
+                @include basic-flex();
                 height:  100%;
                 width:   auto;
                 padding: 0px 20px;
