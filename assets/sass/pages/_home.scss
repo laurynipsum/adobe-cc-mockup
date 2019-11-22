@@ -3,22 +3,58 @@
 #home-hero{
     @include basic-flex();
 
+
+    top: -$second-nav-height;
+    z-index:5;
+
+    position: relative;
     height: auto; 
     min-height: 70vh;
     width:  100vw;
     background-color: #444;
 
+    video{
+        position: absolute;
+        height: 100%;
+        width:  100%;
+        z-index: -2;
+        object-fit: cover;
+    }
+
     #home-hero-content{
-        @include basic-flex(flex-start,flex-start,column);
+        @include basic-flex(center,center,column);
 
         height: auto;
-        width:  70vw;
-        background-color:#666;
+        width:  50vw;
+        text-align: center;
+        
+        img{
+            height:140px;
+            width: 100px;
+        }
 
-        svg{
-            height: 100px;
-            width:  100px;
-            background-color: red;
-        } //svg
+        h1{
+            font-weight: 900;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+        h2{
+            line-height: 1.8;
+            font-size: 18px;
+            font-weight: 200px;
+            margin-bottom: 30px;
+        }
+       
+      p{
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 15px;
+          &:hover{
+              cursor: pointer;
+              background-color: #005abe;
+
+            } 
+        }
+
     } // home-hero-content
-}//home-hero
+}//home-hero 
